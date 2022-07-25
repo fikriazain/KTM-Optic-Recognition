@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from angkatan_dict import get_angkatan
+from prodi_and_angkatan import get_angkatan
 
 def rectangle(img, result):
     #Make a rectangle for Name, NPM, and Email
