@@ -22,8 +22,8 @@ prodi = {
 }
 
 
-def get_angkatan(faculty, num):
-    return angkatan[faculty][num]
+def get_angkatan(faculty, num, jenjang):
+    return angkatan[jenjang][faculty][num]
 
 def get_faculty_detail(num):
     first = num[0:2]
