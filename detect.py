@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import easyocr
 from utils_me import rectangle, resize, putText, extract_npm, extract_prodi
+import os
 
 def detect_show(image):
     scale = round(500 / image.shape[0], 1)
@@ -11,11 +12,11 @@ def detect_show(image):
     reader = easyocr.Reader(['id', 'en'])
     result = reader.readtext(image)
 
-    img = rectangle(image, result)
+    image = rectangle(image, result)
 
     detail = extract_prodi(result)
     npm = extract_npm(result, detail[2], detail[3])
-    img = putText(image, detail, npm)
+    image = putText(image, detail, npm)
 
     try:
         os.mkdir("ImageOut")    
