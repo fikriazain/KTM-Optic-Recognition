@@ -27,3 +27,16 @@ def resize(img, scale):
     dimension = (widht, height)
     img = cv2.resize(img, dimension)
     return img
+
+def putText(img, detail, angkatan):
+    program = detail[0]
+    jurusan = detail[1]
+    faculty = detail[2]
+    jenjang = detail[3]
+
+    cv2.putText(img, "Jenjang: "+str(jenjang), (20, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (255,255,2), thickness=2)
+    cv2.putText(img, "Fakultas: "+str(faculty), (20, 70), cv2.FONT_HERSHEY_PLAIN, 1.5, (255,255,2), thickness=2)
+    cv2.putText(img, "Jurusan: "+str(jurusan), (20, 90), cv2.FONT_HERSHEY_PLAIN, 1.5, (255,255,2), thickness=2)
+    cv2.putText(img, "Program: "+str(program), (20, 110), cv2.FONT_HERSHEY_PLAIN, 1.5, (255,255,2), thickness=2)
+    cv2.putText(img, "Angkatan: "+str(angkatan), (20, 150), cv2.FONT_HERSHEY_PLAIN, 1.5, (43, 56, 240), thickness=2)
+    return img
