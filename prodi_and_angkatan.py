@@ -13,34 +13,34 @@ angkatan = {
 prodi = {
     "00.12.01":{
         #FASILKOM
-        "01": ['Reguler', 'S1 Ilmu Komputer', 'FASILKOM', 'S1'],
-        "02": ['Kls Internasional', 'S1 Ilmu Komputer', 'FASILKOM', 'S1'],
-        "06": ['Reguler', 'S1 Sistem Informasi', 'FASILKOM', 'S1'],
-        "07": ['Ekstensi', 'S1 Sistem Informasi', 'FASILKOM', 'S1'],
-        "08": ['Paralel', 'S1 Sistem Informasi', 'FASILKOM', 'S1'],
-        "09": ['Paralel', 'S1 Ilmu Komputer', 'FASILKOM', 'S1'],
+        "01": ['Reguler', 'Ilmu Komputer', 'FASILKOM', 'S1'],
+        "02": ['Kls Internasional', 'Ilmu Komputer', 'FASILKOM', 'S1'],
+        "06": ['Reguler', 'Sistem Informasi', 'FASILKOM', 'S1'],
+        "07": ['Ekstensi', 'Sistem Informasi', 'FASILKOM', 'S1'],
+        "08": ['Paralel', 'Sistem Informasi', 'FASILKOM', 'S1'],
+        "09": ['Paralel', 'Ilmu Komputer', 'FASILKOM', 'S1'],
     },
     "00.05.01":{
         #FH Ilmu Hukum
-        "01": ['Reguler', 'S1 Ilmu Hukum', 'FH', 'S1'],
-        "02": ['Ekstensi', 'S1 Ilmu Hukum', 'FH', 'S1'],
-        "06": ['Paralel', 'S1 Ilmu Hukum', 'FH', 'S1'],
-        "07": ['Kls Internasional', 'S1 Ilmu Hukum', 'FH', 'S1'],
+        "01": ['Reguler', 'Ilmu Hukum', 'FH', 'S1'],
+        "02": ['Ekstensi', 'Ilmu Hukum', 'FH', 'S1'],
+        "06": ['Paralel', 'Ilmu Hukum', 'FH', 'S1'],
+        "07": ['Kls Internasional', 'Ilmu Hukum', 'FH', 'S1'],
     },
     "02.04.01":{
         #FT Teknik Mesin
-        "01": ['Reguler', 'S1 Teknik Mesin', 'FT', 'S1'],
-        "03": ['Ekstensi', 'S1 Teknik Mesin', 'FT', 'S1'],
-        "04": ['Kls Internasional', 'S1 Teknik Mesin', 'FT', 'S1'],
-        "07": ['Paralel', 'S1 Teknik Mesin', 'FT', 'S1'],
+        "01": ['Reguler', 'Teknik Mesin', 'FT', 'S1'],
+        "03": ['Ekstensi', 'Teknik Mesin', 'FT', 'S1'],
+        "04": ['Kls Internasional', 'Teknik Mesin', 'FT', 'S1'],
+        "07": ['Paralel', 'Teknik Mesin', 'FT', 'S1'],
     }, 
     "02.03.01":{
         #FMIPA Fisika/Geofisika
-        "02": ['Reguler', 'S1 Fisika', 'FMIPA', 'S1'],
-        "03": ['Ekstensi', 'S1 Fisika', 'FMIPA', 'S1'],
-        "05": ['Paralel', 'S1 Fisika', 'FMIPA', 'S1'],
-        "06": ['Reguler', 'S1 Geofisika', 'FMIPA', 'S1'],
-        "09": ['Paralel', 'S1 Geofisika', 'FMIPA', 'S1'],
+        "02": ['Reguler', 'Fisika', 'FMIPA', 'S1'],
+        "03": ['Ekstensi', 'Fisika', 'FMIPA', 'S1'],
+        "05": ['Paralel', 'Fisika', 'FMIPA', 'S1'],
+        "06": ['Reguler', 'Geofisika', 'FMIPA', 'S1'],
+        "09": ['Paralel', 'Geofisika', 'FMIPA', 'S1'],
     }
 }
 
